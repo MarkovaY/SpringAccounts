@@ -28,12 +28,12 @@ public class ConsoleRunner implements CommandLineRunner {
 //        userService.registerUser(user);
 
 //        Testing transferMoney.
-//        accountService.transferMoney(BigDecimal.valueOf(25.50), 1l);
+//        accountService.transferMoney(BigDecimal.valueOf(25.50), 1L);
 
 //        Testing withdrawMoney with a bigger sum.
-//        accountService.withdrawMoney(BigDecimal.valueOf(190), 1l);
+//        accountService.withdrawMoney(BigDecimal.valueOf(190), 1L);
 
 //        Testing withdrawMoney with a valid sum.
-        accountService.withdrawMoney(BigDecimal.valueOf(50), 1l);
+        accountService.withdrawMoney(BigDecimal.valueOf(50), 1L);
     }
 }
